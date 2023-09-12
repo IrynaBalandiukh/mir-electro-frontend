@@ -11,11 +11,11 @@ export const UsersPage = () => {
   useEffect(() => {
     getAllUsers()
     .then(responseData => {
-      // У разі успішного запиту встановлюємо дані у state для відображення
+      // If the request is successful, we set the data in state for display
       setUsers(responseData);
     })
     .catch(error => {
-      // У разі невдалого запиту виводимо в консоль помилку
+      // In the case of an unsuccessful request, we output an error to the console
       console.log(error)
     });
   }, []);

@@ -2,7 +2,7 @@ const BASE_URL = "http://localhost:5000";
 
 type RequestMethod = 'GET' | 'POST' | 'PATCH' | 'DELETE';
 
-// Функція для здійснення HTTP-запитів до серверу з використанням Fetch API
+// A function for making HTTP requests to the server using the Fetch API
 function request<T>(
   url: string, 
   method: RequestMethod = "GET",
@@ -10,7 +10,7 @@ function request<T>(
 ): Promise<T> {
   const options: RequestInit = { method };
 
-  // Якщо ми передаємо при виклику функції дані, то перетворюємо їх у JSON та встановлюємо їх як тіло запиту, додаємо хедери
+  // If we pass data when calling the function, then we convert it to JSON and set it as the request body, add headers
   if (data) {
     options.body = JSON.stringify(data);
     options.headers = {
@@ -18,7 +18,7 @@ function request<T>(
     }
   }
 
-  // Використовуємо Fetch API для відправлення запиту на вказаний URL і з обраними параметрами
+  // We use the Fetch API to send a request to the specified URL and with the selected parameters
   return fetch(`${BASE_URL}${url}`, options)
     .then(response => {
       if (!response.ok) {
@@ -31,7 +31,7 @@ function request<T>(
     .then(data => data)
 }
 
-// Об'єкт, який надає функцію `post` для виконання POST-запитів до сервера
+// An object that provides the `post` function for making POST requests to the server
 export const client = {
   post: <T>(url: string, data: any) => request<T>(url, 'POST', data),
   getAll: <T>(url: string) => request<T>(url, 'GET'),

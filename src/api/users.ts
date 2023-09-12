@@ -6,12 +6,12 @@ type ApiResponse = {
   message: string;
 }
 
-// Функція для відправлення POST-запиту для створення нового користувача з переданими даними форми
+// A function to send a POST request to create a new user with the passed form data
 export const postUser = (data: FormInputData) => {
   return client.post<ApiResponse>('/api/user', data);
 };
 
-// Функція для відправлення GET-запиту для отримання всіх користувачів
+// A function to send a GET request to get all users
 export const getAllUsers = () => {
   return client.getAll<User[]>('/api/user');
 }

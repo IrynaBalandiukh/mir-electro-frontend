@@ -16,20 +16,20 @@ type Props = {
 export const Contacts:React.FC<Props> = ({ setIsModalActive, setResponse, setError }) => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm<FormInputData>({ resolver: yupResolver(validationSchema) });
 
-  // Функція-обробник відправки форми, надсилає дані користувача на сервер
+  // The submit form handler function sends user data to the server
   const onSubmit: SubmitHandler<FormInputData> = (data) => {
     setResponse(null);
     setError(null);
 
     postUser(data)
     .then(response => {
-      // У разі успішного запиту встановлюємо дані у state для відображення, активуємо модальне вікно
+      // If the request is successful, we set the data in state for display, activate the modal window
       setResponse(response.message);
       setIsModalActive(true);
       reset();
     })
     .catch(error => {
-      // У разі невдалого запиту встановлюємо помилку у state для відображення, активуємо модальне вікно
+      // In case of an unsuccessful request, we set an error in the state for display, activate the modal window
       setError(error.message || 'An error occurred');
       setIsModalActive(true);
     });

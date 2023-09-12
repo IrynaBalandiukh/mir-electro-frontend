@@ -14,16 +14,20 @@ export const ProductCard: React.FC<Props> = ({ product }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAdditional, setShowAdditional] = useState(false);
 
-  // Функції для відображення слайдера та додаткових кнопок при наведенні
+  // Functions for displaying a slider and additional buttons when hovering
   const handleMouseEnter = () => {
-    setShowAdditional(true);
+    setTimeout(() => {
+      setShowAdditional(true);
+    }, 300);
   };
 
   const handleMouseLeave = () => {
-    setShowAdditional(false);
+    setTimeout(() => {
+      setShowAdditional(false);
+    }, 300);
   };
 
-  // Функції для перемикання слайдера
+  // Functions for switching the slider
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
@@ -50,7 +54,7 @@ export const ProductCard: React.FC<Props> = ({ product }) => {
           <button className="card__next-button" onClick={nextSlide}></button>
         </div>}
 
-        {showAdditional && <div className="actions">
+        {showAdditional && <div className="actions visible">
           <button className="actions__btn actions__btn--add-to-favorites"></button>
           <button className="actions__btn actions__btn--add-to-bag"></button>
           <button className="actions__btn actions__btn--compare"></button>
