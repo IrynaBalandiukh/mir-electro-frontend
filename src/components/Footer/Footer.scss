@@ -1,0 +1,10 @@
+@import '../../styles/utils';
+
+.footer {
+  background-color: $main-background;
+
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}

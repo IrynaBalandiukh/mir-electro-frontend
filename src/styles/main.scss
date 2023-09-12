@@ -1,0 +1,16 @@
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Ubuntu';
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,99 @@
+@import '../../styles/utils';
+
+.catalog{
+  width: 1675px;
+  margin: 0 auto;
+  padding: 80px 0 50px;
+
+  &__title {
+    position: relative;
+    margin-bottom: 25px;
+    color: $text-color;
+    font-family: Sansation;
+    font-size: 54px;
+
+    &::before {
+      content: "Все товары";
+      position: absolute;
+      top: -90px;
+      left: -30px;
+
+      color: rgba(152, 136, 122, 0.06);
+      font-family: Sansation;
+      font-size: 300px;
+    }
+  }
+
+  &__description {
+    position: relative;
+    margin-bottom: 70px;
+    width: 420px;
+    color: $text-light;
+    font-size: 22px;
+
+    &::after {
+      content: "";
+      position: absolute;
+
+      bottom: -40px;
+      left: -10px;
+
+      width: 1675px;
+      height: 1px;
+      opacity: 0.7;
+      background-color: $text-hover;
+    }
+  }
+
+  &__toolbar {
+    display: flex;
+    gap: 100px;
+
+    margin-bottom: 80px;
+  }
+
+  &__filter {
+    padding: 12px;
+    padding-right: 20px;
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+    color: $text-light;
+    font-size: 18px;
+    appearance: none;
+    outline: none;
+    background-image: url("../../images/icons/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    @include hover(cursor, pointer);
+  }
+
+  &__filter-label {
+    color: $text-color;
+    font-size: 18px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 51px;
+
+    margin-bottom: 27px;
+  }
+
+  &__collection {
+    grid-column: span 2;
+  }
+
+  &__more {
+    text-align: right;
+  }
+
+  &__link {
+    color: $text-color;
+    font-family: Ubuntu;
+    font-size: 20px;
+    text-decoration-line: underline;
+  }
+}

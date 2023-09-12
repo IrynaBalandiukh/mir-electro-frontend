@@ -1,0 +1,28 @@
+@import '../../styles/utils';
+
+.users {
+  margin: 0 auto;
+  padding: 80px 0;
+  max-width: 800px;
+
+  font-size: 26px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+  }
+
+  &__name{
+    margin-right: 30px;
+  }
+
+  &__info {
+    text-align: right;
+  }
+
+  &__info-item {
+    margin-bottom: 10px;
+  }
+}

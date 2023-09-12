@@ -1,0 +1,25 @@
+@import '../../styles/utils';
+
+.link {
+  position: relative;
+  right: 40px;
+  color: $text-color;
+  font-family: Sansation;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration-line: underline;
+
+  &::before {
+    content: url('../../images/icons/Ellipse7.svg');
+    position: absolute;
+    top: -12px;
+    left: -20px;
+  }
+
+  &::after {
+    content: url('../../images/icons/Arrow-right.svg');
+    position: absolute;
+    top: 2px;
+    right: -40px;
+  }
+}

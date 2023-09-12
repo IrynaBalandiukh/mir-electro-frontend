@@ -1,0 +1,136 @@
+@import '../../styles/utils';
+
+.card {
+  width: 380px;
+  height: 435px;
+
+  &__poster {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 50px;
+    background-image: url("../../images/card-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__slider {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &__image {
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+  }
+
+  &__prev-button,
+  &__next-button {
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    border: none;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  &__prev-button {
+    background-image: url("../../images/icons/Polygon\ 2.svg");
+    bottom: 145px;
+    left: -10px;
+  }
+
+  &__next-button {
+    background-image: url("../../images/icons/Polygon\ 1.svg");
+    bottom: 145px;
+    right:85px;
+  }
+  
+  &__tag {
+    display: inline-block;
+    padding: 14px 17px;
+
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+    color: #FFF;
+    font-family: Sansation;
+    font-size: 20px;
+
+    border-radius: 0px 7px 0px 0px;
+    opacity: 0.85;
+    background-color: $text-hover;
+    backdrop-filter: blur(20px);
+  }
+
+  &__description {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 10px;
+  }
+
+  &__name {
+    font-size: 22px;
+    color: $text-color;
+    font-size: 22px;
+  }
+
+  &__old-price {
+    color: $highlight;
+    font-size: 19px;
+    text-decoration-line: line-through;
+    text-align: end;
+  }
+
+  &__current-price {
+    color: $text-hover;
+    font-size: 22px;
+  }
+}
+
+.actions {
+  position: absolute;
+  bottom: 35px;
+  left: 86px;
+
+  display: flex;
+  gap: 20px;
+
+  &__btn {
+    width: 56px;
+    height: 56px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+
+    &--add-to-favorites {
+      background-image: url("../../images/icons/favourites.png");
+    }
+
+    &--add-to-bag {
+      background-image: url("../../images/icons/to-bag.png");
+    }
+
+    &--compare {
+      background-image: url("../../images/icons/compare.png");
+    }
+  }
+}

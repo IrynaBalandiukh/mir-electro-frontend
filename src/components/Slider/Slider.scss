@@ -1,0 +1,242 @@
+@import '../../styles/utils';
+
+.slider {
+  background-color: $main-background;
+
+  &__item {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    height: 954px;
+    padding: 155px 120px 0;
+  }
+
+  &__wrapper {
+    padding: 0 150px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    max-width: 694px;
+    padding-top: 83px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 120px;
+      top: 155px;
+      width: 1px;
+      height: 440px;
+      background-color: rgba(104, 97, 91, 0.42);;
+    }
+  }
+
+  &__item-title {
+    position: relative;
+    margin-bottom: 25px;
+    color: $text-color;
+    font-family: Sansation;
+    font-size: 68px;
+    font-weight: normal;
+    line-height: 100.914%;
+
+    &::before {
+      content: 'Новинка 2023';
+      position: absolute;
+      color: $text-light;
+      font-size: 20px;
+      top: 0;
+      left: 0;
+
+      transform: translate(-50%, -100%);
+    }
+
+    &::after {
+      content: url('../../images/icons/Ellipse6.svg');
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      transform: translate(-50%, -80%);
+    }
+  }
+
+  &__item-description {
+    width: 491px;
+  }
+
+  &__item-subtitle {
+    margin-bottom: 20px;
+    color: $text-light;
+    font-size: 26px;
+  }
+
+  &__item-text {
+    margin-bottom: 35px;
+    color: $text-light;
+    font-size: 22px;
+  }
+
+  &__item-link {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__item-model-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+
+  &__item-model {
+    position: relative;
+    transform: translateY(50%);
+    padding: 22px 126px 22px 30px;
+    text-align: right;
+    color: $text-color;
+    font-family: Sansation;
+    font-size: 22px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(152, 136, 122, 0.50);
+
+    &::after {
+      content: "";
+      background-image: url('../../images/icons/plus.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 12px;
+      right: 26px;
+    }
+  }
+
+  &__item-image-1 {
+    position: absolute;
+    top: 120px;
+    right: 320px;
+  }
+
+  &__item-image-2 {
+    position: absolute;
+    width: 561px;
+    height: 561px;
+    top: 0;
+    right: 140px;
+  }
+
+  &__item-image-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url("../../images/icons/arrow-next.svg");
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 52px;
+  height: 20px;
+
+  position: relative;
+  z-index: 10;
+  top: -70px;
+  left: 47%;
+}
+
+.swiper-button-next {
+  background-image: url("../../images/icons/arrow-next.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 52px;
+  height: 20px;
+
+  position: relative;
+  z-index: 10;
+  top: -70px;
+  left: 51%;
+}
+
+.swiper-pagination-custom {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $text-light;
+
+  font-family: Sansation;
+  font-size: 42px;
+
+  width: 200px;
+  margin: 0 auto 30px;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+}
+
+.circle {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.circle-1 {
+  background-image: url('../../images/icons/Ellipse\ 8.svg');
+  width: 13px;
+  height: 13px;
+
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(152, 136, 122, 0.06);
+    width: 840px;
+    height: 280px;
+    top: 0;
+    left: 0;
+  }
+}
+
+.circle-2 {
+  background-image: url('../../images/icons/Ellipse\ 5.svg');
+  width: 310px;
+  height: 310px;
+}
+
+.circle-3 {
+  background-image: url('../../images/icons/Ellipse\ 4.svg');
+  width: 560px;
+  height: 560px;
+}
+
+.circle-4 {
+  background-image: url('../../images/icons/Ellipse\ 2.svg');
+  width: 898px;
+  height: 898px;
+}
+
+.circle-5 {
+  background-image: url('../../images/icons/Ellipse\ 3.svg');
+  width: 1122px;
+  height: 1122px;
+}

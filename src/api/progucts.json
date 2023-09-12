@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Блендер Scarlet",
+    "tag": "-20%",
+    "price": "1.760 грн.",
+    "oldPrice": "1.920 грн.",
+    "images": ["images/blender.png", "images/grinder.png"]
+  },
+  {
+    "id": 2,
+    "name": "Чайник Scarlet",
+    "tag": "New",
+    "price": "1.590 грн.",
+    "oldPrice": null,
+    "images": ["images/kettle.png", "images/grinder.png"]
+  },
+  {
+    "id": 3,
+    "name": "Тостер Scarlet",
+    "tag": null,
+    "price": "1.120 грн.",
+    "oldPrice": null,
+    "images": ["images/toaster.png", "images/grinder.png"]
+  },
+  {
+    "id": 4,
+    "name": "Миксер Scarlet",
+    "tag": null,
+    "price": "1.860 грн.",
+    "oldPrice": null,
+    "images": ["images/mixer.png", "images/grinder.png"]
+  },
+  {
+    "id": 5,
+    "name": "Cоковыжималка Scarlet",
+    "tag": null,
+    "price": "2.140 грн.",
+    "oldPrice": null,
+    "images": ["images/juicer.png", "images/grinder.png"]
+  },
+  {
+    "id": 6,
+    "name": "Кофемолка Scarlet",
+    "tag": null,
+    "price": "1.120 грн.",
+    "oldPrice": null,
+    "images": ["images/grinder.png", "images/mixer.png"]
+  },
+  {
+    "id": 7,
+    "name": "Кофемашина Scarlet",
+    "tag": "-20%",
+    "price": "4.890 грн.",
+    "oldPrice": "5.920 грн.",
+    "images": ["images/coffee-machine.png", "images/grinder.png"]
+  },
+  {
+    "id": 8,
+    "name": "Мясорубка Scarlet",
+    "tag": null,
+    "price": "2.360 грн.",
+    "oldPrice": null,
+    "images": ["images/meat-grinder.png", "images/grinder.png"]
+  }
+]
