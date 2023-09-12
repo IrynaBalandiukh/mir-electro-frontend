@@ -27,6 +27,10 @@ Contact information is provided on the website, allowing users to get in touch w
 
 Users can leave their contact details and request a callback. This allows them to receive consultation and assistance from store experts.
 
+### View all registered users
+
+Users are available on `#/users`.
+
 ## Technologies Used
 - HTML, SCSS: For styling and layout.
 - React.js: For building a dynamic and interactive user interface.
