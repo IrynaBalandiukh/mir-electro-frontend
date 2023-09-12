@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import { HomePage } from './pages/HomePage';
 import { UsersPage } from './pages/UsersPage';
@@ -6,16 +6,11 @@ import { UsersPage } from './pages/UsersPage';
 import './App.scss';
 
 function App() {
-  const basename = process.env.PUBLIC_URL || '';
-  console.log(basename);
-
   return (
-    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/users" element={<UsersPage />}/>
       </Routes>
-    </Router>
   );
 }
 

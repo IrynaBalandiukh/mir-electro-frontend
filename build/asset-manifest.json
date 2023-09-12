@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mir-electro-frontend/static/css/main.f1822345.css",
-    "main.js": "/mir-electro-frontend/static/js/main.371d7af5.js",
+    "main.js": "/mir-electro-frontend/static/js/main.90744b3f.js",
     "static/media/complects.png": "/mir-electro-frontend/static/media/complects.03cf1a0e25837c7128a6.png",
     "static/media/Ubuntu.ttf": "/mir-electro-frontend/static/media/Ubuntu.768d480f584ebef78ff5.ttf",
     "static/media/hits.png": "/mir-electro-frontend/static/media/hits.db1345e202b9983e26be.png",
@@ -32,10 +32,10 @@
     "static/media/Ellipse 4.svg": "/mir-electro-frontend/static/media/Ellipse 4.d1c11687aa301bec56b5.svg",
     "static/media/Ellipse 8.svg": "/mir-electro-frontend/static/media/Ellipse 8.a7aad41772c29685d0cb.svg",
     "main.f1822345.css.map": "/mir-electro-frontend/static/css/main.f1822345.css.map",
-    "main.371d7af5.js.map": "/mir-electro-frontend/static/js/main.371d7af5.js.map"
+    "main.90744b3f.js.map": "/mir-electro-frontend/static/js/main.90744b3f.js.map"
   },
   "entrypoints": [
     "static/css/main.f1822345.css",
-    "static/js/main.371d7af5.js"
+    "static/js/main.90744b3f.js"
   ]
 }

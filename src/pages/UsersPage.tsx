@@ -24,6 +24,10 @@ export const UsersPage = () => {
     <div>
       <Navigation />
 
+      <div>
+        Here will be a list of users
+      </div>
+
       <Users users={users} />
     </div>
   );
