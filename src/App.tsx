@@ -6,8 +6,11 @@ import { UsersPage } from './pages/UsersPage';
 import './App.scss';
 
 function App() {
+  const basename = process.env.PUBLIC_URL || '';
+  console.log(basename);
+
   return (
-    <Router basename='/mir-electro-frontend/'>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/users" element={<UsersPage />}/>
