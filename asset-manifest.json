@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/mir-electro-frontend/static/css/main.b2d16e28.css",
+    "main.js": "/mir-electro-frontend/static/js/main.8e6b410d.js",
+    "static/media/complects.png": "/mir-electro-frontend/static/media/complects.03cf1a0e25837c7128a6.png",
+    "static/media/Ubuntu.ttf": "/mir-electro-frontend/static/media/Ubuntu.768d480f584ebef78ff5.ttf",
+    "static/media/hits.png": "/mir-electro-frontend/static/media/hits.db1345e202b9983e26be.png",
+    "static/media/blender-1.png": "/mir-electro-frontend/static/media/blender-1.4221e7e63ccc02a212db.png",
+    "static/media/blender-2.png": "/mir-electro-frontend/static/media/blender-2.b1b2865619b954c682d2.png",
+    "static/media/blender-3.png": "/mir-electro-frontend/static/media/blender-3.319efd4cad57dc722d5c.png",
+    "static/media/Sansation.ttf": "/mir-electro-frontend/static/media/Sansation.9be04a011dc2beea9985.ttf",
+    "static/media/card-bg.png": "/mir-electro-frontend/static/media/card-bg.af8d93ce17d1cd9701a7.png",
+    "static/media/geo.svg": "/mir-electro-frontend/static/media/geo.2e5b1e1c879dd8ec1613.svg",
+    "static/media/Ellipse7.svg": "/mir-electro-frontend/static/media/Ellipse7.5266436b644fc8ce375a.svg",
+    "static/media/bag.svg": "/mir-electro-frontend/static/media/bag.896b135b0acd43323d42.svg",
+    "static/media/user.svg": "/mir-electro-frontend/static/media/user.bf0e6a8ac375136f0220.svg",
+    "static/media/phone.svg": "/mir-electro-frontend/static/media/phone.a42fbaa0d01a150dbad2.svg",
+    "static/media/email2.svg": "/mir-electro-frontend/static/media/email2.6c97c384502f8a3b46c4.svg",
+    "static/media/email.svg": "/mir-electro-frontend/static/media/email.cdd19acf38067bae9673.svg",
+    "static/media/Ellipse6.svg": "/mir-electro-frontend/static/media/Ellipse6.aafc2d44054ccaae27a2.svg",
+    "index.html": "/mir-electro-frontend/index.html",
+    "static/media/search.svg": "/mir-electro-frontend/static/media/search.9a1477cd6cbc542ea182.svg",
+    "static/media/plus.svg": "/mir-electro-frontend/static/media/plus.4a3db15128ee26793481.svg",
+    "static/media/Arrow-right.svg": "/mir-electro-frontend/static/media/Arrow-right.4f05d372e508329178e0.svg",
+    "static/media/arrow-next.svg": "/mir-electro-frontend/static/media/arrow-next.c4b5047b0540774a2b6e.svg",
+    "static/media/Polygon 2.svg": "/mir-electro-frontend/static/media/Polygon 2.b3dd9262a1fa3d1ab8bb.svg",
+    "static/media/Polygon 1.svg": "/mir-electro-frontend/static/media/Polygon 1.304a2fde504ab18b182d.svg",
+    "static/media/dropdown.svg": "/mir-electro-frontend/static/media/dropdown.590717616cdf49350e61.svg",
+    "static/media/Ellipse 3.svg": "/mir-electro-frontend/static/media/Ellipse 3.41f570386cf793ab8d15.svg",
+    "static/media/Ellipse 5.svg": "/mir-electro-frontend/static/media/Ellipse 5.de50426b3ac83629e705.svg",
+    "static/media/Ellipse 2.svg": "/mir-electro-frontend/static/media/Ellipse 2.b9ec60466114d59c515b.svg",
+    "static/media/Ellipse 4.svg": "/mir-electro-frontend/static/media/Ellipse 4.d1c11687aa301bec56b5.svg",
+    "static/media/Ellipse 8.svg": "/mir-electro-frontend/static/media/Ellipse 8.a7aad41772c29685d0cb.svg",
+    "main.b2d16e28.css.map": "/mir-electro-frontend/static/css/main.b2d16e28.css.map",
+    "main.8e6b410d.js.map": "/mir-electro-frontend/static/js/main.8e6b410d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2d16e28.css",
+    "static/js/main.8e6b410d.js"
+  ]
+}
