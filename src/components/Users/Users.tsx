@@ -9,6 +9,8 @@ type Props = {
 export const Users: React.FC<Props> = ({ users }) => {
   return (
     <div className="users">
+      {users.length <=0 && <div className="users__message">Here will be a list of all registered users</div>}
+
       {users.map(user => (
         <div key={user.id} className="users__container">
           <div className="users__name">
