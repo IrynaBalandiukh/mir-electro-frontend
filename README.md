@@ -35,11 +35,10 @@ Users can leave their contact details and request a callback. This allows them t
 
 ## Installation
 1. Clone the repository:
-`git clone https://github.com/IrynaBalandiukh/mir-electro.git`
+`git clone https://github.com/IrynaBalandiukh/mir-electro-frontend.git`
 
 2. Install dependencies:
-`cd mir-electro`
-`cd frontend`
+`cd mir-electro-frontend`
 `npm install`
 
 3. Run the development server:
