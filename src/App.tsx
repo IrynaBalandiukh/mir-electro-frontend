@@ -7,7 +7,7 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/mir-electro-frontend/'>
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/users" element={<UsersPage />}/>
